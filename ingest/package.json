@@ -1,0 +1,17 @@
+{
+  "name": "iss-ingest",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pulls live ISS position + NASA telemetry and produces them to Kafka.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "probe:telemetry": "node scripts/probe-telemetry.js"
+  },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "lightstreamer-client-node": "^9.2.2"
+  }
+}
