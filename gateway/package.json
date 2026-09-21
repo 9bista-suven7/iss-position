@@ -1,0 +1,14 @@
+{
+  "name": "iss-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bridges the Kafka output topics to the Angular dashboard over WebSocket + REST.",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "engines": { "node": ">=18.17" },
+  "dependencies": {
+    "kafkajs": "^2.2.4",
+    "ws": "^8.18.0"
+  }
+}
