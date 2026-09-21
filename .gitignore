@@ -14,3 +14,6 @@ infra/run/
 *.log
 .env
 .env.*
+
+# Personal Claude Code permission overrides, not for the repo
+.claude/settings.local.json
