@@ -1,0 +1,16 @@
+# Downloaded and extracted Kafka/Flink distributions (1.2GB) — reproduced by infra/setup.sh
+infra/dist/*
+!infra/dist/.gitkeep
+
+# Broker state, pidfiles, logs
+infra/run/
+
+# Build output and dependencies, anywhere in the tree
+**/node_modules/
+**/target/
+**/dist/
+**/.angular/
+
+*.log
+.env
+.env.*
